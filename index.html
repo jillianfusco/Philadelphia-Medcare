@@ -21,7 +21,7 @@
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="#our-services">Services</a></li>
                 <li><a href="#our-locations">Locations</a></li>
-                <li><a href="#why-choose-us">Choose Us</a></li>
+                <li><a href="#choose-us">Choose Us</a></li>
                 <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,7 +39,7 @@
                 <li><a href="#about-us" onclick="toggleMenu()">About Us</a></li>
                 <li><a href="#our-services" onclick="toggleMenu()">Services</a></li>
                 <li><a href="#our-locations" onclick="toggleMenu()">Locations</a></li>
-                <li><a href="#why-choose-us" onclick="toggleMenu()">Choose Us</a></li>
+                <li><a href="#choose-us" onclick="toggleMenu()">Choose Us</a></li>
                 <li><a href="#schedule" onclick="toggleMenu()">Schedule</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -65,7 +65,101 @@
         </div>        
     </section>
 
+    <section id="about-us">
+        <h1>About Us</h1>
+        <p>
+            At Philadelphia Medcare DCPC, we specialize in providing personalized chiropractic care to help you recover from injuries, alleviate pain, and improve your quality of life. With two convenient locations in the heart of Philadelphia, we are committed to delivering compassionate and expert care tailored to your specific needs. Whether you're suffering from an auto accident, work-related injuries, or chronic pain, our experienced chiropractors are here to guide you on your path to recovery.
+        </p>
+    </section>
 
+    <section id="our-services">
+        <h1>Our Services</h1>
+        <p>
+            We offer a range of chiropractic services designed to target various conditions and promote holistic healing:
+            <ul id="services-list">
+                <li><span class="bold">Spinal Adjustments:</span> Realigning your spine to relieve pain and improve mobility.</li>
+                <li><span class="bold">Auto Injury Treatment:</span> Comprehensive care for those recovering from car accidents.</li>
+                <li><span class="bold">Work Injury Treatment:</span> Focused care for injuries sustained on the job.</li>
+                <li><span class="bold">Physical Therapy & Rehabilitation:</span> Customized plans to regain strength and flexibility.</li>
+                <li><span class="bold">Pain Management:</span> Natural solutions for back pain, neck pain, and joint discomfort.</li>
+            </ul><br>
+            <p>Your health and well-being are our top priorities.</p>
+        </p>
+    </section>
+
+    <section id="our-locations">
+        <h1>Our Locations</h1>
+        <p>We are proud to serve the Philadelphia community with two easily accessible clinics: <br><br>
+            <span class="bold">West Philadelphia Office</span><br>
+            Philadelphia Medcare DCPC <br>
+            4006 Lancaster Ave <br>
+            Philadelphia, PA 19104 <br>
+            Phone: (215) 387-4491 <br>
+            Conveniently located near public transportation and free parking. <br><br>
+            <span class="bold">North Philadelphia Office</span>
+            Philadelphia Medcare DCPC <br>
+            4607 N Broad St <br>
+            Philadelphia, PA 19140 <br>
+            Phone: (215) 329-6136 <br>
+            Close to major highways and offering handicap-accessible facilities.
+            </p>
+    </section>
+
+    <section id="choose-us">
+        <h1>Why Choose Us?</h1>
+        <p>
+            <span class="bold">Experienced Chiropractors:</span> Decades of combined experience in treating injuries and chronic pain. <br><br>
+            <span class="bold">Personalized Treatment Plans: </span>Care designed specifically for your needs and condition. <br><br>
+            <span class="bold">State-of-the-Art Facilities: </span>Equipped with modern technology to ensure effective treatment. <br><br>
+            <span class="bold">Two Convenient Locations: </span>Easy access to quality care, no matter where you are in Philadelphia. <br><br>
+            <span class="bold">Compassionate Care: </span>We take the time to understand your concerns and work toward long-term health solutions. <br>
+
+            <h3>Testimonials</h3>
+            <p>"The team at Philadelphia Medcare DCPC helped me recover after my car accident. They truly care about their patients!" - Sarah W. <br><br>
+                "I was in so much pain from a work injury, but after a few sessions here, I feel like myself again. Highly recommend!" - James L.</p>
+        </p>
+    </section>
+
+    <section id="schedule">
+        <h1>Schedule</h1>
+        <p>Ready to start feeling better? <br>
+            Our friendly team is here to help you book your initial consultation and answer any questions you may have. <br><br>
+            Call us today at <span class="bold">(215) 387-4491</span> for the Lancaster Ave location, or <span class="bold">(215) 329-6136 </span>for the Broad St location. <br>
+            You can also use our online contact form below to get in touch.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form action="" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="injury-description">Describe Your Injury and Reason for Reaching Out:</label><br>
+                <textarea id="injury-description" name="injury-description" rows="4" required></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-color-1">Submit</button>
+        </form>
+        
+    </section>
     
     <script src="script.js"></script>
 </body>

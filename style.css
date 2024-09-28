@@ -8,15 +8,13 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #e7ecef;
+    padding-bottom: 20px;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-p {
-    color: #274c77;
-}
 
 /* TRANSITION */
 
@@ -40,7 +38,6 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.3rem; 
-    /* example is 2rem */
 }
 
 a {
@@ -60,9 +57,6 @@ a:hover {
     font-size: 1.5rem;
     color: #274c77;
     font-weight: 500;
-    /* padding-top: 50px;
-    height: 200px;
-    width: 200px; */
 }
 
 .logo:hover{
@@ -152,8 +146,8 @@ a:hover {
 /* SECTIONS */
 section {
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    /* height: 96vh; */
+    margin: 0 5rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -167,7 +161,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     height: 80vh;
 }
 
@@ -189,16 +183,19 @@ section {
 
 .section__text__p1 {
     text-align: center;
+    color: #274c77;
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: #274c77;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
+    color: black;
 }
 
 /* BUTTONS */
@@ -247,10 +244,69 @@ section {
     gap: 1rem;
 }
 
+/* SECTIONS IN BODY */
+
+p {
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #274c77;
+    padding-bottom: 10px;
+}
+
+#services-list {
+    padding-left: 60px;
+    font-size: larger;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* FORM */
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    background-color: #f3f6f7; /* Example light color */
+    color: #333; /* Text color inside input */
+    border: 1px solid #ccc; /* Border color */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
 /* COLOR PALLETTE */
 /* #e7ecef ICE GREY */
 /* #8b8c89 DARK GREY */
 /* #274c77 NAVY BLUE */
 /* #6096ba MEDIUM BLUE */
 /* #a3cef1 LIGHT BLUE */
+/* #f3f6f7 FORM INPUT BOX */
 
