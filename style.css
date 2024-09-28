@@ -15,7 +15,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: #274c77;
 }
 
 /* TRANSITION */
@@ -50,14 +50,16 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: #274c77;
     text-decoration: underline;
     text-underline-offset: .8rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color:#274c77;
 }
 
 .logo {
     font-size: 1.5rem;
+    color: #274c77;
+    font-weight: 500;
     /* padding-top: 50px;
     height: 200px;
     width: 200px; */
@@ -215,8 +217,9 @@ section {
     border-radius: 1rem;
 }
 
-.btn-color-1, .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;    
+.btn-color-1 {
+    
+    border: #274c77 0.1rem solid;    
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
@@ -224,17 +227,19 @@ section {
 }
 
 .btn-color-1, .btn-color-2:hover {
-    background-color: rgb(53, 53, 53);
+    background-color: #274c77;
     color: #e7ecef;
 }
 
 .btn-color-1:hover {
     background-color:black;
     color: #e7ecef;
+    border: #e7ecef 0.1rem solid;
 }
 
 .btn-color-2 {
     background: none;
+    border:  black 0.1rem solid;
 }
 
 .btn-color-2:hover {
