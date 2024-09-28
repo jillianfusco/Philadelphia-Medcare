@@ -1,9 +1,16 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
     #desktop-nav {
         display: none;
     }
 
     #hamburger-nav {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .section__pic-container {
+        display: none;
     }
 }

@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Philadelphia Medcare</div>
+        <div class="logo">
+            Philadelphia Medcare
+        </div>
+        
         <div>
             <ul class="nav-links">
                 <li><a href="#about-us">About Us</a></li>
@@ -42,8 +45,27 @@
             </div>
         </div>
     </nav>
-    <h1>Welcome to Philadelphia Medcare DCPC</h1>
-    <p>Your Trusted Chiropractor for Injury Recovery and Pain Relief in Philadelphia</p>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <!-- <img src="./assets/spineSketch.jpg" alt="spine sketch"> -->
+            <!-- <img src="./assets/philadelphiaMedcareLogo.png" alt="logo"> -->
+            <!-- <img src="./assets/spineModel.jpg" alt="spine model"> -->
+             <img src="./assets/doctorInMask.jpg" alt="Doctor wearing a surgical mask">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, we are</p>
+            <h1 class="title">Philadelphia Medcare</h1>
+            <p class="section__text__p2">Chiropractor for Injury Recovery and Pain Relief</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="location.href='./#our-locations'">Our Locations</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+        </div>        
+    </section>
+
+
+    
     <script src="script.js"></script>
 </body>
 </html>
