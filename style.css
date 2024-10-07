@@ -16,8 +16,15 @@ html {
 }
 
 
-#phone, #phone:hover, #phone:visited, #phone:active {
-    color: #155a8e
+#phone a {
+    color: #155a8e; 
+    text-decoration: none;
+}
+
+
+#phone a:visited, #phone a:active {
+    color: #6096ba; 
+    text-decoration: none; 
 }
 
 /* TRANSITION */
