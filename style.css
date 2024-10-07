@@ -15,11 +15,8 @@ html {
     scroll-behavior: smooth;
 }
 
-a:visited, a:active {
-    color: black
-}
 
-#phone:visited, #phone:active {
+#phone, #phone:hover, #phone:visited, #phone:active {
     color: #155a8e
 }
 
