@@ -19,7 +19,7 @@ a:visited, a:active {
     color: black
 }
 
-#phone:hover {
+#phone:visited, #phone:active {
     color: #155a8e
 }
 
