@@ -15,6 +15,9 @@ html {
     scroll-behavior: smooth;
 }
 
+a:visited, a:active {
+    color: black
+}
 
 /* TRANSITION */
 
