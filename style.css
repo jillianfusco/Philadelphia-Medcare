@@ -280,7 +280,7 @@ h1 {
 }
 
 /* FORM */
-input[type="text"], input[type="email"], input[type="tel"], textarea {
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"], textarea {
     background-color: whitesmoke; /* Example light color */
     color: #333; /* Text color inside input */
     border: 1px solid #ccc; /* Border color */
